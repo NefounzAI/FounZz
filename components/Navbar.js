@@ -9,7 +9,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-gray-900 dark:bg-black p-5 shadow-md w-full">
+    <nav className="bg-black p-5 shadow-md w-full">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo / Site Name */}
         <h1 className="text-3xl font-bold text-white font-mono">FounZz</h1>
@@ -72,6 +72,8 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
+      {/* Garis di bawah navbar */}
+      <div className=" border border-x-cyan-50-full"></div>
     </nav>
   );
 };
