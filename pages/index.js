@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <div className="flex items-center justify-center mt-20 sm:mt-48"> {/* Use different margin for mobile and desktop */}
+    <div className="flex items-center justify-center h-screen"> {/* Use different margin for mobile and desktop */}
       <div className="flex flex-col items-center p-4">
         <div className="flex-shrink-0">
           <img
