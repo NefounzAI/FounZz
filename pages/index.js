@@ -4,7 +4,7 @@ import Link from 'next/link';
 export default function Home() {
   return (
     
-    <div className="flex items-center justify-center h-screen"> {/* Use different margin for mobile and desktop */}
+    <div className="flex items-center justify-center h-screen"> 
 
 
       <div className="flex flex-col items-center p-4">
@@ -12,7 +12,7 @@ export default function Home() {
           <img
             src="https://id-static.z-dn.net/files/d38/ecc3220d6fa0d845b0270e27f9e52424.jpg"
             alt="Profile Photo"
-            className="rounded-full w-28 h-28 md:w-40 md:h-40 object-cover mb-10" // Keep this for spacing below the image
+            className="rounded-full w-28 h-28 md:w-40 md:h-40 object-cover mb-10" 
           />
         </div>
 

@@ -46,7 +46,7 @@ const Navbar = () => {
           <li className="p-4">
             <Link
               href="/"
-              className="text-white hover:text-yellow-400 transition-all duration-300 ease-in-out hover:underline"
+              className="text-white hover:text-yellow-400 transition-all duration-300 ease-in-out"
               onClick={toggleMenu} // Close menu on link click
             >
               Home
@@ -55,7 +55,7 @@ const Navbar = () => {
           <li className="p-4">
             <Link
               href="/project"
-              className="text-white hover:text-yellow-400 transition-all duration-300 ease-in-out hover:underline"
+              className="text-white hover:text-yellow-400 transition-all duration-300 ease-in-out"
               onClick={toggleMenu} // Close menu on link click
             >
               Project
@@ -64,7 +64,7 @@ const Navbar = () => {
           <li className="p-4">
             <Link
               href="/about"
-              className="text-white hover:text-yellow-400 transition-all duration-300 ease-in-out hover:underline"
+              className="text-white hover:text-yellow-400 transition-all duration-300 ease-in-out"
               onClick={toggleMenu} // Close menu on link click
             >
               About
