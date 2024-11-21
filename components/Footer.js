@@ -85,6 +85,8 @@ export default function Footer() {
           </span>
         </div>
       </div>
+      <script defer src="https://fz.nefounz.my.id/script.js" data-website-id="21a6ec0c-ff04-4b85-8a81-cac7b8c92e34"></script>
     </footer>
+    
   );
 }
